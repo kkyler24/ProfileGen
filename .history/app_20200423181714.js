@@ -24,21 +24,15 @@ const render = require("./lib/htmlRenderer");
 {
     type: "input",
     name: "id",
-    message:"What is the Manager's Id?"
-},
-{
-    type: "input",
-    name: "id",
     message:"What is the Manager's office number?"
 },
 {
     type: "input",
-    name: "email",
+    name: "Manager",
     message:"What is the Manager's Email?"
 }
 ]);
 ​
-
 inquirer.prompt([
     {
     type: "input",
@@ -53,52 +47,16 @@ inquirer.prompt([
 {
     type: "input",
     name: "id",
-    message:"What is the Engineers Id?"
-},
-{
-    type: "input",
-    name: "GitHub Username",
     message:"What is the Engineers GitHub username?"
 },
 {
     type: "input",
-    name: "GitHut acount",
+    name: "Engineer",
     message:"What is the Engineer's GitHib account?"
-},
-{
-    type: "input",
-    name: "Email",
-    message:"What is the Engineer's Email?"
 }
 ]);
 
-inquirer.prompt([
-{
-type: "input",
-name: "Employee",
-message:"What is the role?"
-},
-{
-    type: "input",
-    name: "id",
-    message:"What is the Intern's Id?"
-},
-{
-    type: "input",
-     name: "name",
-    message:"What is the Interns name?"
-},
-{
-    type: "input",
-    name: "school",
-    message:"What school does the Intern attend?"
-},
-{
-type: "input",
-name: "email",
-message:"What is the Manager's Email?"
-}
-]);
+
 
 
 
