@@ -9,7 +9,7 @@ class Employee {
      return this.name 
      }
      getId(){
-        return this.id 
+        return this.Id 
         }
         getEmail(){
             return this.email 
