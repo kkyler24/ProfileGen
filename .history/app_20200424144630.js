@@ -71,35 +71,35 @@ const render = require("./lib/htmlRenderer");
 // }
 // ]);
 
-// inquirer.prompt([
-// {
-// type: "input",
-// name: "Employee",
-// message:"What is the role?"
-// },
-// {
-//     type: "input",
-//     name: "id",
-//     message:"What is the Intern's Id?"
-// },
-// {
-//     type: "input",
-//      name: "name",
-//     message:"What is the Interns name?"
-// },
-// {
-//     type: "input",
-//     name: "school",
-//     message:"What school does the Intern attend?"
-// },
-// {
-// type: "input",
-// name: "email",
-// message:"What is the Manager's Email?"
-// }
-// ]).then(function(answers){
-//     console.log(answers)
-// });
+inquirer.prompt([
+{
+type: "input",
+name: "Employee",
+message:"What is the role?"
+},
+{
+    type: "input",
+    name: "id",
+    message:"What is the Intern's Id?"
+},
+{
+    type: "input",
+     name: "name",
+    message:"What is the Interns name?"
+},
+{
+    type: "input",
+    name: "school",
+    message:"What school does the Intern attend?"
+},
+{
+type: "input",
+name: "email",
+message:"What is the Manager's Email?"
+}
+]).then(function(answers){
+    console.log(answers)
+});
 
 
 // render(){
