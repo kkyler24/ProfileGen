@@ -1,6 +1,6 @@
-//const Manager = require("./lib/Manager");
-//const Engineer = require("./lib/Engineer");
-//const Intern = require("./lib/Intern");
+const Manager = require("./lib/Manager");
+const Engineer = require("./lib/Engineer");
+const Intern = require("./lib/Intern");
 const inquirer = require("inquirer");
 // const path = require("path");
 // const fs = require("fs");
@@ -10,33 +10,33 @@ const inquirer = require("inquirer");
 // const render = require("./lib/htmlRenderer");
 
 
-// ​inquirer.prompt([
-//     {
-//         type: "input",
-//          name: "Employee",
-//         message:"What is the role?"
-//     },
-//     {
-//     type: "input",
-//      name: "name",
-//     message:"What is the manager name?"
-// },
-// {
-//     type: "input",
-//     name: "id",
-//     message:"What is the Manager's Id?"
-// },
-// {
-//     type: "input",
-//     name: "id",
-//     message:"What is the Manager's office number?"
-// },
-// {
-//     type: "input",
-//     name: "email",
-//     message:"What is the Manager's Email?"
-// }
-// ])
+​inquirer.prompt([
+    {
+        type: "input",
+         name: "Employee",
+        message:"What is the role?"
+    },
+    {
+    type: "input",
+     name: "name",
+    message:"What is the manager name?"
+},
+{
+    type: "input",
+    name: "id",
+    message:"What is the Manager's Id?"
+},
+{
+    type: "input",
+    name: "id",
+    message:"What is the Manager's office number?"
+},
+{
+    type: "input",
+    name: "email",
+    message:"What is the Manager's Email?"
+}
+]);
 ​
 
 // inquirer.prompt([
